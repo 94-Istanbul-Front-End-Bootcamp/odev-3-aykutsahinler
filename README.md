@@ -1,15 +1,6 @@
-# odev-3
+# Odev-3
 
-Size vermiş olduğumuz form'un valid olup olmadığını kontrol etmeniz ve mesajları özelleştirmeniz bekleniyor.
-
-## Örnek sayfa yapısı
-Valid değil ise
-![alt text](/form-not-valid.png)
-
-Valid ise
-
-![alt text](/form-valid.png)
-
+Kullanıcı adı, parola, e-mail ve check-box elementleri ile oluşturulmuş form.
 
 ## Kurallar
 1- Kullanıcı Adı, Şifre ve Email boş olduğunda hata verecek.
@@ -28,6 +19,3 @@ Valid ise
     index.js
 
 7- Formu css ile kendinize göre özelleştirin.
-
-## Dosyalar
-Şablon dosyalar repoda verilmiştir.
