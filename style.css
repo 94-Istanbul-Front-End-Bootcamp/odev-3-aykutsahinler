@@ -85,80 +85,79 @@ button {
   letter-spacing: normal;
 }
 
-
 .checkbox {
-    position: relative;
-    appearance: none;
-    border-radius: 1rem;
-    background-color: #fff;
-    width: 2rem;
-    height: 1rem;
-    outline: none;
-    margin-right: 0.5rem;
-    cursor: pointer;
+  position: relative;
+  appearance: none;
+  border-radius: 1rem;
+  background-color: #fff;
+  width: 2rem;
+  height: 1rem;
+  outline: none;
+  margin-right: 0.5rem;
+  cursor: pointer;
 }
 
 .checkbox::before {
-    content: "";
-    position: absolute;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    background: lightgrey;
-    transition: 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.2);
+  content: "";
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: lightgrey;
+  transition: 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.2);
 }
 
 .checkbox:checked::before {
-    transform: translateX(1rem) rotateX(180deg);
-    background-color: grey;
+  transform: translateX(1rem) rotateX(180deg);
+  background-color: grey;
 }
 
 .checkbox:checked ~ label {
-    color: green;
+  color: green;
 }
 
 .btn-container {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .btn-submit {
-    width: 5rem;
-    height: 4rem;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    position: relative;
-    font-size: 1rem;
-    color: darkgray;
-    transform: scale(0.75) rotateX(45deg) rotateY(-30deg) translateZ(4.5rem);
-    transform-origin: 50% 100%;
-    transform-style: preserve-3d;
-    transition: all 0.5s;
-    border-radius: 10px;
-    background-color: gray;
-    z-index: 50;
+  width: 5rem;
+  height: 4rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 1rem;
+  color: darkgray;
+  transform: scale(0.75) rotateX(45deg) rotateY(-30deg) translateZ(4.5rem);
+  transform-origin: 50% 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
+  border-radius: 10px;
+  background-color: gray;
+  z-index: 50;
 }
 
 .btn-submit::before {
-    content: "";
-    position: absolute;
-    width: 5rem;
-    height: 4rem;
-    background-color: darkgray;
-    transition: all 0.5s;
-    border-radius: 10px;
-    transform: translateZ(12rem) translateX(6.8rem) translateY(13rem);
+  content: "";
+  position: absolute;
+  width: 5rem;
+  height: 4rem;
+  background-color: darkgray;
+  transition: all 0.5s;
+  border-radius: 10px;
+  transform: translateZ(12rem) translateX(6.8rem) translateY(13rem);
 }
 
 .btn-submit::after {
-    content: "Gönder";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    transform: translateZ(12rem) translateX(8.5rem) translateY(12.5rem);
+  content: "Gönder";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translateZ(12rem) translateX(8.5rem) translateY(12.5rem);
   width: 5rem;
   height: 4rem;
   background-color: lightgray;
@@ -203,7 +202,7 @@ button {
 }
 
 .checkbox-container .warning {
-    margin-top: 9px;
+  margin-top: 9px;
 }
 
 .warning::before {
