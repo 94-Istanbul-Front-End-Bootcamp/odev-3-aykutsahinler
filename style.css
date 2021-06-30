@@ -17,7 +17,8 @@ body {
 
 input[type="text"],
 input[type="password"],
-input[type="email"] {
+input[type="email"],
+button {
     outline: none;
 }
 
@@ -73,4 +74,26 @@ input[type="email"] {
     left: 0;
     color: rgb(47, 79, 79);
     font-size: .8rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-submit {
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: .2rem;
+    margin-top: 1rem;
+    transition: .2s;
+    border: 1px solid #fff;
+}
+
+.btn-submit:hover {
+    background-color: darkgrey;
+    border: 1px solid #fff;
+    color: #fff;
+
 }
